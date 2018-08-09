@@ -1,0 +1,132 @@
+
+.header {
+  height: auto;
+  min-height: 100vh;
+  padding-top: 26px;
+  //padding-bottom: 135px;
+  background-image: url("../../../../public/images/header/background.jpg");
+  background-size: cover;
+}
+.temp{
+  display: block;
+  position: relative;
+  box-sizing: content-box;
+  width: 1170px;
+  min-width: 1170px;
+  margin: 0 auto;
+}
+.content__title{
+  color: white;
+  font-family: 'Geometria Light', serif;
+}
+.header__link{
+  color: white;
+}
+.flex-box{
+  display: flex;
+}
+
+//NAVBAR
+.header__wrapper {
+  position: relative;
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  .navbar-expand-md {
+    width: inherit;
+    display: flex;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapse {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  .header__navigation {
+    position: relative;
+    top:-5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    list-style: none;
+    margin: 0;
+    padding-left: 63px;
+    padding-right: 176px;
+  }
+  .reg-list {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Geometria Thin', serif;
+    font-size: 21px;
+    list-style: none;
+    padding-top: 27px;
+    padding-left:12px;
+    margin: 0;
+    .reg-list__item__link_signup{
+      font-size: 16px;
+      margin-left: 46px;
+      text-decoration: underline;
+    }
+  }
+}
+//MAINBLOCK
+
+.header__main-text-block{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 160px;
+  .main-text-block__content {
+    display: flex;
+    flex-direction: column;
+    .content__title_main {
+      font-size: 65px;
+    }
+    .submain-title_submain{
+      font-size: 28px;
+      padding-left: 25px;
+    }
+   .main-text-block__content_button{
+     width: auto;
+     text-align: center;
+     padding-top: 100px;
+     padding-bottom: 125px;
+   }
+
+  }
+}
+
+//SOCHIALS
+.header__sochial-block{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  .flex-box-rules{
+    display: flex;
+    width: 100px;
+    font-size: 12px;
+    line-height: 0.9em;
+    text-decoration: none;
+    padding-right: 15px;
+
+  }
+  .flex-box-rules__risks{
+     padding-right: 15px;
+     padding-bottom: 5px;
+   }
+  .flex-box-sochial{
+    justify-content: space-between;
+  width: 76px;
+  }
+}
