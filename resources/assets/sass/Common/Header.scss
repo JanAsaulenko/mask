@@ -19,8 +19,12 @@
   color: white;
   font-family: 'Geometria Light', serif;
 }
+
 .header__link{
   color: white;
+}
+.header__link:hover{
+  text-decoration: none;
 }
 .flex-box{
   display: flex;
@@ -100,6 +104,9 @@
      padding-top: 100px;
      padding-bottom: 125px;
    }
+    .main-text-block__content_button:hover{
+      box-shadow: 10px 10px 10px 10px grey
+    }
 
   }
 }

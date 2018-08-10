@@ -13,11 +13,11 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- Left Side Of Navbar -->
         <ul class="header__navigation">
-          <li><a href="#" class="header__link">About</a></li>
-          <li><a href="#" class="header__link">Portfolio</a></li>
-          <li><a href="#" class="header__link">Profit calculator</a></li>
-          <li><a href="#" class="header__link">Team</a></li>
-          <li><a href="#" class="header__link">FAQ</a></li>
+          <li class="header__navigation__item"><a href="#" class="header__link">About</a></li>
+          <li class="header__navigation__item"><a href="#" class="header__link">Portfolio</a></li>
+          <li class="header__navigation__item"><a href="#" class="header__link">Profit calculator</a></li>
+          <li class="header__navigation__item"><a href="#" class="header__link">Team</a></li>
+          <li class="header__navigation__item"><a href="#" class="header__link">FAQ</a></li>
         </ul>
 
         <!-- Right Side Of Navbar -->

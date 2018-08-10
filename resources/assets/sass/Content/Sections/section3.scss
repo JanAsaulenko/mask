@@ -1,14 +1,102 @@
-.section3{
+.section3-bg{
   min-height: 100vh;
-  height: auto;
+  height: 100%;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
   padding-bottom: 90px;
   background:  url("../../../../../public/images/section3/bg3.jpg")center;
+  box-sizing: border-box;
+}
+
+.section3{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 1170px;
+  min-width: 1170px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: initial;
+  box-sizing: border-box;
 }
 .link3{
 position: relative;
-  top:-34px;
+  background:  url("../../../../../public/images/section3/bg3.jpg")center;
+}
+.section3__title{
+  font-size: 65px;
+  color: white;
+}
+.section3__buttons-block{
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  padding-right: 255px;
+  padding-left: 265px;
+  padding-top:52px;
+}
+
+.buttons-block__button{
+  width:152px;
+  height:31px;
+  color: white;
+  font-size: 11pt;
+  text-align: center;
+  background: url('../../../../../public/images/section3/btn3-transparent.png');
+}
+.buttons-block__button:hover{
+  background: #0f47ff;
+  cursor: pointer;
+}
+.graph-block{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 407px;
+}
+.graph-block__graph{
+display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  height: inherit;
+  padding-right: 125px;
+}
+.graph-block__info-block{
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  width: 253px;
+  min-width: 253px;
+  justify-content: center;
+  margin-top: 28px;
+
+}
+.info-block {
+  font-family: Geometria Light, serif;
+  color: #ffffff;
+  font-size: 18pt;
+  padding-top: 20px;
+}
+.info-block__course-bittrex{
+  font-size: 14pt;
+  opacity: 0.6;
+}
+.info-block__line{
+  padding-top: 24px;
+}
+.profit-block{
+  font-family: Geometria Thin, bold, serif;
+  //font-size:24px;
+  opacity: 0.8;
+//padding-top: 10px;
+}
+.profit-block-percent{
+  font-size: 24px;
+  font-family: Geometria Medium, serif ;
+  font-weight: bold;
+}
+.btn-invest{
+  padding-top: 100px;
+  cursor: pointer;
 }
